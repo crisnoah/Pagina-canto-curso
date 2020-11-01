@@ -1,0 +1,365 @@
+/* //FONDO WEB// */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #121415;
+}
+
+
+/* //EDITANDO EL MENU// */
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+}
+
+.nav-main {
+	font-size: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+	padding: 20px 0;
+	background: #45007F;
+}
+
+.nav-main ul {
+	display: flex;
+}
+
+.nav-main ul li {
+	padding: 10px;
+}
+
+.nav-main ul li a {
+	padding: 2px;
+}
+
+.nav-main ul li a:hover {
+	border-bottom: 3px solid #fffff2;
+}
+
+.nav-main ul li a:hover {
+	opacity: .8;
+}
+
+.nav-main ul.nav-menu {
+	flex: 1;
+	margin-left: 20px;
+}
+
+.nav-brand {
+	width: 50px;
+}
+
+
+/* //SECCION BANNER LISTO VAMOS A ELLO// */
+.welcome {
+	width: 100%;
+	height: 700px;
+	background: url('https://cdn.pixabay.com/photo/2015/11/07/11/28/people-1031169_960_720.jpg') no-repeat center center/cover;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.welcome {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.welcome h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 33px;
+	color: #F7E7E6
+}
+
+.parrafos {
+	font-family: ebrima;
+	font-size: 24px;
+	color: #DECED7;
+	padding-bottom: 12px;
+}
+
+.welcome a {
+	font-family: 'Montserrat', sans-serif;
+	color: #F7E7E6;
+	font-size: 19px;
+	background: #230145;
+	padding: 12px;
+}
+
+.welcome a:hover {
+	background: #8C00FF;
+}
+
+
+/* //EDITANDO SECCION ¿QUE ES EL CANTO? Y MAS...// */
+.contenedor1 {
+	width: 100%;
+	height: 690px;
+	text-align: center;
+	align-items: center;
+}
+
+.contenedor1 .texto-corto {
+	font-family: ebrima;
+	font-size: 18px;
+	color: #DECED7;
+	width: 700px;
+	margin: auto;
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+/* //editando cartas y preguntas// */
+.question {
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.seccion1 {
+	height: 420px;
+	width: 380px;
+	padding: 20px;
+	box-shadow: 0 2px 2px #4F09FF;
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	transition: all 0.25s;
+}
+
+.seccion1:hover {
+	transform: translateY(-15px);
+	box-shadow: 0 12px 16px #8B09FF
+}
+
+.seccion1 h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 23px;
+	color: #F7E7E6;
+	padding-bottom: 12px;
+}
+
+.seccion1 p {
+	font-family: ebrima;
+	font-size: 17px;
+	color: #DECED7;
+	padding-bottom: 26px;
+}
+
+.seccion1 a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	background: #6B12E8;
+	padding: 12px;
+}
+
+.seccion1 a:hover {
+	background: #2B04E8;
+}
+
+
+/* //EDITANDO EL LARGO VIAJE Y MAS// */
+.contenedor2 {
+	width: 100%;
+	height: 430px;
+	background: #181A1B;
+	
+	text-align: center;
+	flex-direction: column;
+}
+
+.contenedor2 p {
+	font-family: ebrima;
+	font-size: 18px;
+	color: #DECED7;
+	width: 700px;
+	margin: auto;
+	padding: 15px;
+}
+
+.contenedor2 h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: #F7E7E6;
+	padding: 13px;
+}
+
+/* //editando deficiencias de metodos// */
+.otro-metodo {
+	width: 100%;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-around;
+}
+
+.preguntas h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: #F7E7E6;
+	padding: 13px;
+}
+
+.preguntas ul li {
+	font-family: ebrima;
+	font-size: 17px;
+	color: #DECED7;
+	text-align: left;
+	padding: 3px;
+}
+
+
+/* //EDITANDO LAS ANECTODAS// */
+.anecdotas {
+	width: 100%;
+	height: 1300px;
+	/*background: #121415;*/
+
+	
+}
+
+.parrafos2 .p1 {
+	font-family: ebrima;
+	font-size: 17px;
+	color: #DECED7;
+	padding: 30px;
+	text-align: center;
+
+}
+
+.anecdotas1 {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient(90deg, #2B04E8, #4F09FF);
+
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.anecdotas1 h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	color: #F7E7E6;
+	padding: 20px;
+}
+
+.anecdotas1 p {
+	font-family: ebrima;
+	font-size: 17px;
+	color: #DECED7;
+	width: 60%;
+	margin-left: 20px;
+
+}
+
+.anecdotas2 {
+	width: 100%;
+	height: 500px;
+	background: linear-gradient(90deg, #5C0C99, #8B09FF);
+	
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	justify-content: flex-end;
+
+	justify-content: center;
+}
+
+
+.anecdotas2 h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 22px;
+	color: #F7E7E6;
+	padding: 20px;
+	text-align: right;
+}
+
+.anecdotas2 p {
+	font-family: ebrima;
+	font-size: 17px;
+	color: #DECED7;
+	width: 60%;
+	margin-right: 20px;
+	text-align: right;
+
+}
+
+
+/* //EDITANDO LO ULTIMO// */
+.ultimos {
+	width: 100%;
+	height: 200px;
+	background: #181A1B;
+
+	display: flex;
+	flex-direction: column;
+}
+
+.ultimos h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 24px;
+	color: #F7E7E6;
+	padding: 15px;
+	width: 50%;
+	margin: auto;
+	text-align: center;
+	justify-content: flex-start;
+	align-items: center;
+}
+
+.ultimos p {
+	margin: auto;
+	text-align: center;
+	flex-direction: row;
+	align-items: center;
+
+	font-family: ebrima;
+	color: #DECED7;
+	font-size: 17px;	
+}
+
+.ultimos a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	background: #6B12E8;
+	padding: 12px;
+	text-align: center;
+	width: 15%;
+	margin: auto;
+}
+
+.ultimos a:hover {
+	background: #2B04E8;
+}
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,296 @@
+/* //FONDO WEB// */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #121415;
+}
+
+
+/* //EDITANDO EL MENU// */
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: montserrat;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+	position: fixed;
+	z-index: 1000;
+	top: 0;	
+}
+
+.nav-main {
+	font-size: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+	padding: 20px 0;
+	/*background: linear-gradient(to right,#A61DF0, #5C18C9); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+	background: #45007F;
+}
+
+.nav-main ul {
+	display: flex;
+}
+
+.nav-main ul li {
+	padding: 10px;
+}
+
+.nav-main ul li a {
+	padding: 2px;
+}
+
+.nav-main ul li a:hover {
+	border-bottom: 3px solid #fffff2;
+}
+
+.nav-main ul li a:hover {
+	opacity: .8;
+}
+
+.nav-main ul.nav-menu {
+	flex: 1;
+	margin-left: 20px;
+}
+
+.nav-brand {
+	width: 50px;
+}
+
+
+/* //EDITANDO LA SECCION BIENVENIDA// */
+.bienvenida {
+	width: 100%;
+	height: 700px;
+	background: url('Banner Bienvenida .jpg') no-repeat center center/cover;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: column;	
+	justify-content: center;
+}
+
+.bienvenida {
+	text-align: left;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.bienvenida {
+	font-family: ebrima;
+	color: #F7E7E6;
+	font-size: 24px;px;
+	height: 700px;
+	text-shadow: 4px 4px 9px #262425;
+}
+
+.colores {
+	color: #DECED7;
+}
+
+
+/*//EDITANDO LA INTRODUCCION DEL SITIO// */
+.introduccion {
+	width: 100%;
+	height: 225px;
+	background: #1E2021;
+	padding: 20px;
+}
+
+.titulos {
+	color: #F7E7E6;
+	font-family: montserrat;
+	font-size: 23px;
+	text-align: center;
+}
+
+.colores1 {
+	color: #DECED7;
+	font-family: ebrima;
+	font-size: 18px;
+	text-align: center;
+}
+
+
+/* //EDITANDO EL APRENDE A CANTAR// */
+.aprende {
+	width: 100%;
+	height: 500pX;
+	background: #1A1D1F
+}
+
+.titulos1 {
+	color: #F7E7E6;
+	font-family: montserrat;
+	font-size: 23px;
+	text-align: center;
+	padding: 15px;
+}
+
+
+/* //EDITANDO CANTAR DESDE CERO// */
+.cero {
+	width: 100%;
+	height: 700px;
+	background: url('https://cdn.pixabay.com/photo/2020/10/27/01/19/singer-5689244_960_720.jpg') no-repeat center center/cover;
+	
+	
+
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	justify-content: flex-start;
+
+	justify-content: center;
+}
+
+.titulos2 {
+	color: #F7E7E6;
+	font-family: montserrat;
+	font-size: 23px;
+	text-align: left;
+	width: 30%;
+	margin-left: 40px;
+	margin-bottom: 15px;
+}
+
+.colores2 {
+	color: #DECED7;
+	font-family: ebrima;
+	font-size: 18px;
+	text-align: left;
+	width: 35%;
+	margin-left: 40px;
+
+}
+
+/* editando cartas */
+.titulos-cartas {
+	width: 100%;
+}
+
+.titulos-cartas h3 {
+	font-family: montserrat;
+	color: #F7E7E6;
+	font-size: 23px;
+	text-align: center;
+	padding-top: 23px;
+}
+
+.contenedor {
+	width: 100%;
+	max-width: 1200px;
+	height: 1740px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: auto;
+}
+
+.contenedor .card {
+	width: 330px;
+	height: 470px;
+	box-shadow: 0 2px 2px #8B09FF;
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	transition: all 0.25s;
+}
+
+.contenedor .card:hover {
+	transform: translateY(-15px);
+	box-shadow: 0 12px 16px #4F09FF;
+}
+
+.contenedor .card img {
+	width: 270px;
+	height: 270px;
+}
+
+.contenedor .card h4 {
+	font-weight: 600;
+	font-family: montserrat;
+	color: #F7E7E6;
+	font-size: 20px;
+	padding: 5px;
+}
+
+.contenedor .card p {
+	padding: 0 1rem;
+	padding: 5px;
+	font-size: 16px;
+	font-weight: 300;
+	font-family: ebrima;
+	color: #DECED7;
+}
+
+
+/* //EDITANDO EL LARGO VIAJE DE APRENDER A CANTAR// */
+.camino {
+	width: 100%;
+	height: 700px;
+	background: url('https://cdn.pixabay.com/photo/2020/10/27/01/20/singer-5689245_960_720.jpg') no-repeat center center/cover;
+
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap-reverse;
+	justify-content: flex-end;
+
+	justify-content: center;
+}
+
+.titulos3 {
+	color: #F7E7E6;
+	font-family: montserrat;
+	font-size: 23px;
+	text-align: right;
+	width: 30%;
+	margin-right: 40px;
+	margin-bottom: 15px;
+}
+
+.colores3 {
+	color: #DECED7;
+	font-family: ebrima;
+	font-size: 18px;
+	text-align: right;
+	width: 35%;
+	margin-right: 40px;
+}
+
+
+/* //EDITANDO ACERCA DE// */
+.final {
+	width: 100%;
+	height: 225px;
+	background: #181A1B;
+	padding: 20px;
+}
+
+.titulos4 {
+	color: #F7E7E6;
+	font-family: montserrat;
+	font-size: 23px;
+	text-align: center;
+}
+
+.colores4 {
+	color: #DECED7;
+	font-family: ebrima;
+	font-size: 18px;
+	text-align: center;
+	padding: 20px;
+
+}

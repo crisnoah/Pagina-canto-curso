@@ -1,0 +1,225 @@
+/* //FONDO WEB// */
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #121415;
+}
+
+
+/* //EDITANDO EL MENU// */
+a {
+	color: #FFFFFF;
+	text-decoration: none;
+	font-family: 'Montserrat', sans-serif;
+}
+
+ul {
+	list-style: none;
+}
+
+.container {
+	width: 100%;
+	margin: auto;
+}
+
+.nav-main {
+	font-size: 15px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 70px;
+	padding: 20px 0;
+	background: #45007F;
+}
+
+.nav-main ul {
+	display: flex;
+}
+
+.nav-main ul li {
+	padding: 10px;
+}
+
+.nav-main ul li a {
+	padding: 2px;
+}
+
+.nav-main ul li a:hover {
+	border-bottom: 3px solid #fffff2;
+}
+
+.nav-main ul li a:hover {
+	opacity: .8;
+}
+
+.nav-main ul.nav-menu {
+	flex: 1;
+	margin-left: 20px;
+}
+
+.nav-brand {
+	width: 50px;
+}
+
+
+/* //SECCION A CUIDA TU VOZ// */
+.bienvenida2 {
+	width: 100%;
+	height: 700px;
+	background: url('https://cdn.pixabay.com/photo/2017/06/20/22/14/men-2425121_960_720.jpg') no-repeat center center/cover;
+	padding-bottom: 30px;
+	display: flex;
+	flex-direction: column;
+}
+
+.bienvenida2 {
+	text-align: center;
+	justify-content: center;
+	align-items: center;
+}
+
+.bienvenida2 h2 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 33px;
+	color: #F7E7E6
+}
+
+.parrafos3 {
+	font-family: ebrima;
+	font-size: 24px;
+	color: #DECED7;
+	padding-bottom: 12px;
+}
+
+.bienvenida2 a {
+	font-family: 'Montserrat', sans-serif;
+	color: #F7E7E6;
+	font-size: 19px;
+	background: #8B09FF;
+	padding: 12px;
+}
+
+.bienvenida2 a:hover {
+	background: #2B04E8;
+}
+
+
+/* //EDITANDO SECCION ¿COMO CUIADMOS NUESTRA VOZ?// */
+.contenedor4 {
+	width: 100%;
+	height: 990px;
+	text-align: center;
+	align-items: center;
+}
+
+.contenedor4 h3 {
+	font-family: 'Montserrat', sans-serif;
+	color: #F7E7E6;
+	font-size: 24px;
+	padding-top: 50px;
+}
+
+.contenedor4 .texto-cortos {
+	font-family: ebrima;
+	font-size: 18px;
+	color: #DECED7;
+	width: 700px;
+	margin: auto;
+	padding-bottom: 60px;
+	padding-top: 60px;
+}
+
+
+/* //SECCION CUIDA TU VOZ// */
+.question {
+	width: 100%;
+	height: 590PX;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+}
+
+.seccion1 {
+	height: 500px;
+	width: 380px;
+	padding: 20px;
+	box-shadow: 0 2px 2px #4F09FF;
+	overflow: hidden;
+	margin: 20px;
+	text-align: center;
+	transition: all 0.25s;
+}
+
+.seccion1:hover {
+	transform: translateY(-15px);
+	box-shadow: 0 12px 16px #8B09FF
+}
+
+.seccion1 img {
+	width: 270px;
+	height: 170px;
+	justify-content: center;
+
+}
+
+.seccion1 h3 {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 23px;
+	color: #F7E7E6;
+	padding-bottom: 12px;
+}
+
+.seccion1 p {
+	font-family: ebrima;
+	font-size: 17px;
+	color: #DECED7;
+	padding-bottom: 26px;
+}
+
+.seccion1 a {
+	font-family: 'Montserrat', sans-serif;
+	font-size: 17px;
+	background: #6B12E8;
+	padding: 12px;
+}
+
+.seccion1 a:hover {
+	background: #2B04E8;
+}
+
+
+
+.ultimos5 {
+	width: 100%;
+	height: 300px;
+	background: #181A1B;
+	text-align: center;
+	align-items: center;
+}
+
+.ultimos5 h3 {
+	width: 100%;
+	font-family: 'Montserrat', sans-serif;
+	color:  #F7E7E6;
+	font-size: 24px;
+	padding-top: 30px;
+}
+
+.ultimos5 p {
+	width: 70%;
+	font-family: ebrima;
+	color: #DECED7;
+	font-size: 17px;
+	text-align: center;
+	margin: auto;
+}
+
+
+
+
+
